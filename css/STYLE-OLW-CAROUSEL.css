@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{outline:none}
+#banner .owl-nav,
+#hoivien-slider .owl-nav,
+#b-a .owl-nav{
+	position:absolute; left:0; top:40%; width:100%;  z-index:100}	
+	
+#banner .owl-nav .owl-prev,#banner .owl-nav .owl-next,
+#hoivien-slider .owl-nav .owl-prev,
+#hoivien-slider .owl-nav .owl-next,
+#b-a .owl-nav .owl-prev,
+#b-a .owl-nav .owl-next
+{ font-size:60px}
+#banner .owl-nav .owl-prev,
+#hoivien-slider .owl-nav .owl-prev
+#b-a .owl-nav .owl-nav .owl-prev
+{ position:absolute; left:0}
+#banner .owl-nav .owl-next,
+#hoivien-slider .owl-nav .owl-next
+#b-a .owl-nav .owl-next
+{ position:absolute; right:0}
+#banner .owl-dots{ position:absolute; left:50%; bottom:20px;  }
+#banner .owl-dots .owl-dot span ,
+#hoivien-slider .owl-dots .owl-dot span{
+      width: 20px;
+      height: 8px;     
+      background:#fff; 
+		box-shadow:1px 1px 2px #666;
+	transition: all .5s
+    
+   }
+#banner .owl-dots .owl-dot.active span,
+#hoivien-slider .owl-dots .owl-dot.active span,
+
+.owl-theme .owl-dots .owl-dot:hover span {  
+	width: 50px;
+      background:#009868; }
+	  
+	  /*------------- khoa hoc slider----------*/
+#hoivien-slider .owl-nav .owl-prev,
+#b-a .owl-nav .owl-prev{ position:absolute; left:-5px; background:#ccc}
+#hoivien-slider .owl-nav .owl-next,
+#b-a .owl-nav .owl-next
+{ position:absolute; right:-5px;background:#ccc}
+#hoivien-slider .owl-nav .owl-prev:hover,#hoivien-slider .owl-nav .owl-next:hover{ background:#009868}
+ 
